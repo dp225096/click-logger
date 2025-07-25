@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 
-const SHEET_WEBHOOK_URL = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+const SHEET_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbyjLJSSvLVGGOxT_65hCQ36jTzjToMXRXpugnRB60w-Dvu7PMt2vSCqA5g9cDlt-s1h/exec';
 
 app.get('/', async (req, res) => {
   const data = {

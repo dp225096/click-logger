@@ -5,7 +5,7 @@ const axios = require('axios');
 const path = require('path');
 const app = express();
 
-const SHEET_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbyjLJSSvLVGGOxT_65hCQ36jTzjToMXRXpugnRB60w-Dvu7PMt2vSCqA5g9cDlt-s1h/exec';
+const SHEET_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbwlasnZWH9RAV6h4D4ZTfMhK-MmH1q9cpcWQsC_ZKQRr6U72v60Px7texmVtnHrKYoi/exec';
 const REDIRECT_URL = 'https://your-website.com';
 
 app.use(express.static('public'));

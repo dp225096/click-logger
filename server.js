@@ -4,7 +4,7 @@ const axios = require('axios');
 const app = express();
 
 const SHEET_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbwlasnZWH9RAV6h4D4ZTfMhK-MmH1q9cpcWQsC_ZKQRr6U72v60Px7texmVtnHrKYoi/exec';
-const REDIRECT_URL = 'https://your-website.com';
+const REDIRECT_URL = 'https://www.webpagetest.org/blank.html';
 
 app.get('/', async (req, res) => {
   const data = {
